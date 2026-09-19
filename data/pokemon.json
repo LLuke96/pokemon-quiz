@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "profile": {
+            "intraprendenza": -1,
+            "riflessivita": 1,
+            "empatia": 1,
+            "socialita": 1,
+            "curiosita": 0,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 4,
+        "name": "Charmander",
+        "profile": {
+            "intraprendenza": 2,
+            "riflessivita": 1,
+            "empatia": 0,
+            "socialita": 1,
+            "curiosita": 1,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 7,
+        "name": "Squirtle",
+        "profile": {
+            "intraprendenza": 1,
+            "riflessivita": 0,
+            "empatia": 0,
+            "socialita": 2,
+            "curiosita": 1,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 152,
+        "name": "Chikorita",
+        "profile": {
+            "intraprendenza": -1,
+            "riflessivita": 1,
+            "empatia": 2,
+            "socialita": 1,
+            "curiosita": 0,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 155,
+        "name": "Cyndaquil",
+        "profile": {
+            "intraprendenza": -1,
+            "riflessivita": 2,
+            "empatia": 1,
+            "socialita": -1,
+            "curiosita": 0,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 158,
+        "name": "Totodile",
+        "profile": {
+            "intraprendenza": 2,
+            "riflessivita": 2,
+            "empatia": 0,
+            "socialita": 2,
+            "curiosita": 1,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 252,
+        "name": "Treecko",
+        "profile": {
+            "intraprendenza": 1,
+            "riflessivita": 2,
+            "empatia": -1,
+            "socialita": -2,
+            "curiosita": 1,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 255,
+        "name": "Torchic",
+        "profile": {
+            "intraprendenza": 1,
+            "riflessivita": -1,
+            "empatia": 1,
+            "socialita": 2,
+            "curiosita": 1,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 258,
+        "name": "Mudkip",
+        "profile": {
+            "intraprendenza": 1,
+            "riflessivita": 0,
+            "empatia": 1,
+            "socialita": 1,
+            "curiosita": 2,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 387,
+        "name": "Turtwig",
+        "profile": {
+            "intraprendenza": -1,
+            "riflessivita": 2,
+            "empatia": 2,
+            "socialita": 0,
+            "curiosita": 0,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 390,
+        "name": "Chimchar",
+        "profile": {
+            "intraprendenza": 2,
+            "riflessivita": -2,
+            "empatia": 1,
+            "socialita": 2,
+            "curiosita": 2,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 393,
+        "name": "Piplup",
+        "profile": {
+            "intraprendenza": 1,
+            "riflessivita": 2,
+            "empatia": 0,
+            "socialita": 1,
+            "curiosita": 1,
+            "determinazione": 2
+        }
+    },
+    {
+        "id": 25,
+        "name": "Pikachu",
+        "profile": {
+            "intraprendenza": 1,
+            "riflessivita": 1,
+            "empatia": 2,
+            "socialita": 2,
+            "curiosita": 1,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 133,
+        "name": "Eevee",
+        "profile": {
+            "intraprendenza": 0,
+            "riflessivita": 1,
+            "empatia": 1,
+            "socialita": 1,
+            "curiosita": 2,
+            "determinazione": 1
+        }
+    },
+    {
+        "id": 79,
+        "name": "Slowpoke",
+        "profile": {
+            "intraprendenza": -2,
+            "riflessivita": -2,
+            "empatia": 1,
+            "socialita": 0,
+            "curiosita": 1,
+            "determinazione": -2
+        }
+    }
+]

@@ -1,5 +1,21 @@
 let questions = [];
+let pokemonData = [];
 let currentQuestion = 0;
+
+const quizScreen = document.getElementById("quiz-screen");
+const resultScreen = document.getElementById("result-screen");
+
+const questionText = document.getElementById("question-text");
+const answersContainer = document.getElementById("answers-container");
+const questionCounter = document.getElementById("question-counter");
+const progressFill = document.getElementById("progress-fill");
+
+const resultsContainer = document.getElementById("results-container");
+const restartButton = document.getElementById("restart-button");
+
+const pokemonResult = document.getElementById("pokemon-result");
+const pokemonImage = document.getElementById("pokemon-image");
+const pokemonName = document.getElementById("pokemon-name");
 
 const characterResults = {
     intraprendenza: 0,
@@ -43,48 +59,112 @@ const axes = {
     }
 };
 
-const quizScreen = document.getElementById("quiz-screen");
-const resultScreen = document.getElementById("result-screen");
+async function loadPokemonResult() {
+    const pokemon = getClosestPokemon();
 
-const questionText = document.getElementById("question-text");
-const answersContainer = document.getElementById("answers-container");
-const questionCounter = document.getElementById("question-counter");
-const progressFill = document.getElementById("progress-fill");
+    if (!pokemon) {
+        return;
+    }
 
-const resultsContainer = document.getElementById("results-container");
-const restartButton = document.getElementById("restart-button");
+    try {
+        const response = await fetch(
+            `https://pokeapi.co/api/v2/pokemon/${pokemon.id}`
+        );
 
+        if (!response.ok) {
+            throw new Error("Impossibile recuperare il Pokémon.");
+        }
 
-// --------------------------------------------------
-// CARICAMENTO DOMANDE
-// --------------------------------------------------
+        const data = await response.json();
+
+        const artwork =
+            data.sprites.other["official-artwork"].front_default;
+
+        pokemonName.textContent = pokemon.name;
+
+        pokemonImage.src = artwork;
+        pokemonImage.alt = pokemon.name;
+
+        pokemonResult.classList.remove("hidden");
+
+    } catch (error) {
+        console.error(error);
+
+        pokemonName.textContent = pokemon.name;
+        pokemonResult.classList.remove("hidden");
+    }
+}
+
+function getClosestPokemon() {
+    let closestPokemon = null;
+    let closestDistance = Infinity;
+
+    pokemonData.forEach((pokemon) => {
+        let distance = 0;
+
+        Object.keys(characterResults).forEach((axis) => {
+            const userValue = normalizeResult(characterResults[axis]);
+            const pokemonValue = pokemon.profile[axis];
+
+            distance += Math.pow(userValue - pokemonValue, 2);
+        });
+
+        distance = Math.sqrt(distance);
+
+        if (distance < closestDistance) {
+            closestDistance = distance;
+            closestPokemon = pokemon;
+        }
+    });
+
+    return closestPokemon;
+}
+
+function normalizeResult(value) {
+    const maxValue = 20;
+
+    const clampedValue = Math.max(
+        -maxValue,
+        Math.min(maxValue, value)
+    );
+
+    return (clampedValue / maxValue) * 2;
+}
 
 async function loadQuestions() {
     try {
-        const response = await fetch("data/questions.json");
+        const [questionsResponse, pokemonResponse] = await Promise.all([
+            fetch("data/questions.json"),
+            fetch("data/pokemon.json")
+        ]);
 
-        if (!response.ok) {
+        if (!questionsResponse.ok) {
             throw new Error("Impossibile caricare le domande.");
         }
 
-        questions = await response.json();
+        if (!pokemonResponse.ok) {
+            throw new Error("Impossibile caricare i Pokémon.");
+        }
+
+        questions = await questionsResponse.json();
+        pokemonData = await pokemonResponse.json();
 
         if (!Array.isArray(questions) || questions.length === 0) {
             throw new Error("Il file delle domande è vuoto o non valido.");
+        }
+
+        if (!Array.isArray(pokemonData) || pokemonData.length === 0) {
+            throw new Error("Il file dei Pokémon è vuoto o non valido.");
         }
 
         showQuestion();
 
     } catch (error) {
         console.error(error);
-        questionText.textContent = "Si è verificato un errore nel caricamento del quiz.";
+        questionText.textContent =
+            "Si è verificato un errore nel caricamento del quiz.";
     }
 }
-
-
-// --------------------------------------------------
-// MOSTRA DOMANDA
-// --------------------------------------------------
 
 function showQuestion() {
     const question = questions[currentQuestion];
@@ -116,11 +196,6 @@ function showQuestion() {
     });
 }
 
-
-// --------------------------------------------------
-// RISPOSTA
-// --------------------------------------------------
-
 function selectAnswer(answer) {
 
     // Applica gli effetti della risposta
@@ -141,11 +216,6 @@ function selectAnswer(answer) {
         showQuestion();
     }
 }
-
-
-// --------------------------------------------------
-// RISULTATI
-// --------------------------------------------------
 
 function showResults() {
 
@@ -201,6 +271,8 @@ function showResults() {
 
         resultsContainer.appendChild(resultElement);
     });
+
+    loadPokemonResult();
 }
 
 
