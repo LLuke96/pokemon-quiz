@@ -192,7 +192,7 @@
                 }
             },
             {
-                "text": "Partiamo comunque: qualcosa ci inventeremo lungo il percorso.",
+                "text": "Partiamo comunque: ci inventeremo qualcosa lungo il percorso.",
                 "effects": {
                     "intraprendenza": 2,
                     "riflessivita": 1
@@ -707,7 +707,7 @@
                 }
             },
             {
-                "text": "Cerco un modo per aiutarlo senza rinunciare all'obiettivo.",
+                "text": "Cerco un modo per aiutarlo alla buona, senza rinunciare all'obiettivo.",
                 "effects": {
                     "empatia": -1,
                     "intraprendenza": 1,
