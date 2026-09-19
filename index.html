@@ -1,0 +1,49 @@
+```html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Personality Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="quiz-container">
+
+        <!-- QUIZ -->
+        <section id="quiz-screen" class="screen">
+            <div class="progress">
+                <span id="question-counter"></span>
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <h1 id="question-text"></h1>
+
+                <div id="answers-container" class="answers"></div>
+            </div>
+        </section>
+
+        <!-- RISULTATI -->
+        <section id="result-screen" class="screen hidden">
+            <h1>Il tuo profilo</h1>
+            <p class="result-intro">
+                Ecco come ti sei comportato lungo le sei dimensioni del test.
+            </p>
+
+            <div id="results-container" class="results"></div>
+
+            <button id="restart-button" class="restart-button">
+                Ricomincia il test
+            </button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```

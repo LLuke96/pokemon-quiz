@@ -1,0 +1,530 @@
+[
+    {
+        "id": 1,
+        "question": "Durante una spedizione ti accorgi che hai dimenticato qualcosa di importante. Come reagisci?",
+        "answers": [
+            {
+                "text": "Cerco di cavarmela con quello che ho a disposizione.",
+                "effects": {}
+            },
+            {
+                "text": "Torno indietro a recuperarlo, anche se perderemo tempo.",
+                "effects": {}
+            },
+            {
+                "text": "Cerco un'alternativa che ci permetta di proseguire senza quello che manca.",
+                "effects": {}
+            },
+            {
+                "text": "Chiedo agli altri se qualcuno ha un'idea o può aiutarmi.",
+                "effects": {}
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Durante un viaggio, il tuo gruppo si accorge di aver perso la strada. Cosa fai?",
+        "answers": [
+            {
+                "text": "Cerco di ricostruire il percorso che abbiamo fatto e capire dove abbiamo sbagliato.",
+                "effects": {}
+            },
+            {
+                "text": "Propongo di scegliere una direzione e vedere dove ci porta.",
+                "effects": {}
+            },
+            {
+                "text": "Cerco qualcuno o qualcosa a cui chiedere indicazioni.",
+                "effects": {}
+            },
+            {
+                "text": "Torniamo sui nostri passi: è meglio riprendere un percorso conosciuto.",
+                "effects": {}
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Trovi un oggetto dall'aspetto molto particolare in una grotta. Non sai cosa sia e non sembra pericoloso. Cosa fai?",
+        "answers": [
+            {
+                "text": "Lo esamino attentamente prima di toccarlo.",
+                "effects": {}
+            },
+            {
+                "text": "Lo prendo: magari potrebbe rivelarsi utile.",
+                "effects": {}
+            },
+            {
+                "text": "Cerco di capire da dove provenga e perché si trovi lì.",
+                "effects": {}
+            },
+            {
+                "text": "Lo lascio dov'è. Se non so cosa sia, preferisco non rischiare.",
+                "effects": {}
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Un tuo compagno ti propone di affrontare una situazione che sembra troppo difficile per voi. Come reagisci?",
+        "answers": [
+            {
+                "text": "Prima cerco di capire se abbiamo davvero le capacità per farcela.",
+                "effects": {}
+            },
+            {
+                "text": "Accetto. Se aspettiamo sempre di essere pronti, non faremo mai nulla.",
+                "effects": {}
+            },
+            {
+                "text": "Provo a trovare un modo per rendere la situazione più affrontabile.",
+                "effects": {}
+            },
+            {
+                "text": "Preferisco lasciar perdere e cercare qualcosa di più alla nostra portata.",
+                "effects": {}
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Scopri che una scorciatoia potrebbe farvi risparmiare molto tempo, ma nessuno sa quanto sia sicura. Cosa fai?",
+        "answers": [
+            {
+                "text": "La prendiamo. Se siamo arrivati fin qui, tanto vale rischiare.",
+                "effects": {}
+            },
+            {
+                "text": "Cerco prima di capire quali pericoli potremmo incontrare.",
+                "effects": {}
+            },
+            {
+                "text": "Propongo di mandare qualcuno a controllare mentre gli altri aspettano.",
+                "effects": {}
+            },
+            {
+                "text": "Preferisco seguire la strada conosciuta: arrivare più tardi è meglio che non arrivare affatto.",
+                "effects": {}
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Hai preparato tutto con cura per una spedizione, ma proprio prima di partire scopri che le condizioni sono cambiate completamente. Cosa fai?",
+        "answers": [
+            {
+                "text": "Rivedo i miei piani e cerco di adattarmi alla nuova situazione.",
+                "effects": {}
+            },
+            {
+                "text": "Se non possiamo più seguire il piano originale, rimandiamo la spedizione.",
+                "effects": {}
+            },
+            {
+                "text": "Partiamo comunque: qualcosa ci inventeremo lungo il percorso.",
+                "effects": {}
+            },
+            {
+                "text": "Valuto cosa è cambiato e cerco di capire se il nuovo scenario può essere sfruttato a nostro vantaggio.",
+                "effects": {}
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Un tuo compagno commette un errore che mette in difficoltà tutto il gruppo. Come reagisci?",
+        "answers": [
+        {
+            "text": "Cerco prima di capire perché è successo, poi vediamo come rimediare.",
+            "effects": {}
+        },
+        {
+            "text": "Gli dico chiaramente cosa ha sbagliato: dobbiamo evitare che succeda di nuovo.",
+            "effects": {}
+        },
+        {
+            "text": "Non importa chi ha sbagliato: pensiamo a come uscire dalla situazione.",
+            "effects": {}
+        },
+        {
+            "text": "Cerco di rassicurarlo e gli faccio capire che può contare su di me.",
+            "effects": {}
+        }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Ti viene affidato un compito importante, ma nessuno ti dice esattamente come svolgerlo. Cosa fai?",
+        "answers": [
+        {
+            "text": "Chiedo spiegazioni finché non mi è ben chiaro cosa dovrò fare.",
+            "effects": {}
+        },
+        {
+            "text": "Per questa volta, chiederò se posso essere affiancato: non vorrei fare danni.",
+            "effects": {}
+        },
+        {
+            "text": "Capirò cosa dovrò fare man mano che svolgo questo compito.",
+            "effects": {}
+        },
+        {
+            "text": "Se mi è stato affidato questo compito, mi aspetto che mi vengano date le informazioni necessarie per svolgerlo.",
+            "effects": {}
+        }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Hai un'intera giornata libera e nessun programma. Come decidi di trascorrerla?",
+        "answers": [
+        {
+            "text": "Finalmente posso dedicarmi a qualcosa da fare tranquillamente per conto mio.",
+            "effects": {}
+        },
+        {
+            "text": "Chiamo qualcuno e organizziamo qualcosa insieme.",
+            "effects": {}
+        },
+        {
+            "text": "Esco senza una meta precisa: vediamo dove mi porta la giornata.",
+            "effects": {}
+        },
+        {
+            "text": "Ne approfitto per recuperare qualcosa che avevo programmato da tempo.",
+            "effects": {}
+        }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Un amico ti propone di provare un'attività che non hai mai fatto prima. Come reagisci?",
+        "answers": [
+        {
+            "text": "Accetto subito. È proprio questo il bello di provare cose nuove.",
+            "effects": {}
+        },
+        {
+            "text": "Prima voglio sapere esattamente in cosa consiste.",
+            "effects": {}
+        },
+        {
+            "text": "Se ci tieni, vengo volentieri con te.",
+            "effects": {}
+        },
+        {
+            "text": "Preferisco fare qualcosa che so già che mi piace.",
+            "effects": {}
+        }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Avete stabilito un piano, ma durante lo svolgimento ti rendi conto che esiste un modo migliore per seguirlo. Cosa fai?",
+        "answers": [
+        {
+            "text": "Faccio presente che, così com'è, il piano non funzionerà. Se non siamo disposti a cambiarlo, preferisco farmi da parte.",
+            "effects": {}
+        },
+        {
+            "text": "Faccio notare le criticità che ho trovato, ma se il gruppo decide di continuare così, non voglio creare tensioni.",
+            "effects": {}
+        },
+        {
+            "text": "Ne parliamo insieme: magari possiamo modificare alcuni punti e rendere il piano più efficace.",
+            "effects": {}
+        },
+        {
+            "text": "Tengo a mente la mia intuizione. Se si presenta l'occasione giusta, proverò a sfruttarla.",
+            "effects": {}
+        }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Stai discutendo con qualcuno e ti accorgi che, forse, potresti avere torto. Cosa fai?",
+        "answers": [
+        {
+            "text": "Ammetto di aver sbagliato e cambio idea.",
+            "effects": {}
+        },
+        {
+            "text": "Cerco di capire meglio il suo punto di vista prima di decidere.",
+            "effects": {}
+        },
+        {
+            "text": "Provo comunque a difendere la mia posizione: magari c'è qualcosa che non abbiamo considerato.",
+            "effects": {}
+        },
+        {
+            "text": "Lascio perdere la discussione: non vale la pena litigare per avere ragione.",
+            "effects": {}
+        }
+        ]
+    },
+    {
+  "id": 13,
+  "question": "Hai promesso qualcosa a un amico, ma nel frattempo è comparsa un'occasione che ti interessa molto di più. Come ti comporti?",
+  "answers": [
+    {
+      "text": "Mantengo la promessa: se ho dato la mia parola, non torno indietro.",
+      "effects": {}
+    },
+    {
+      "text": "Parlo con il mio amico e cerco di trovare un compromesso.",
+      "effects": {}
+    },
+    {
+      "text": "Gli chiedo se possiamo rimandare: un'occasione così potrebbe non ricapitare.",
+      "effects": {}
+    },
+    {
+      "text": "Mi prendo l'occasione e gli spiego che a volte bisogna saper cambiare programma.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 14,
+  "question": "Ti accorgi che una persona che conosci sta avendo una giornata particolarmente difficile. Cosa fai?",
+  "answers": [
+    {
+      "text": "Le chiedo se vuole parlarne: magari ha solo bisogno di qualcuno che ascolti.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco di tirarle su il morale, anche senza sapere esattamente cosa sia successo.",
+      "effects": {}
+    },
+    {
+      "text": "Le lascio i suoi spazi: se vorrà parlarne, sa dove trovarmi.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco di capire cosa potrei fare concretamente per aiutarla.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 15,
+  "question": "Durante la notte senti uno strano rumore provenire dalla stanza accanto. Nessun altro sembra averlo sentito. Cosa fai?",
+  "answers": [
+    {
+      "text": "Vado subito a controllare.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco di capire cosa sta succedendo: non voglio svegliare gli altri per nulla.",
+      "effects": {}
+    },
+    {
+      "text": "Meglio allertare il gruppo.",
+      "effects": {}
+    },
+    {
+      "text": "Chiudo la porta e aspetto che passi. Non vedo perché rischiare per un rumore.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 16,
+  "question": "Durante un'esplorazione trovi una porta mistica che non avevi mai visto prima. Non ci sono tracce che indichino cosa ci sia oltre e non sai nemmeno da quanto tempo sia lì. Cosa fai?",
+  "answers": [
+    {
+      "text": "La apro. Potrei non avere mai più l'occasione di scoprire cosa nasconde.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco di capire la natura della porta, mantenendo le distanze.",
+      "effects": {}
+    },
+    {
+      "text": "Meglio avvisare gli altri: a prescindere da cosa sia, è bene che ne siano informati.",
+      "effects": {}
+    },
+    {
+      "text": "Segno il punto e continuo il mio percorso. Se non so cosa ci sia oltre, non sento il bisogno di scoprirlo.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 17,
+  "question": "Un Pokémon che non conosci ti chiede di seguirlo perché dice di avere urgentemente bisogno del tuo aiuto, dato che un suo compagno di viaggio è in pericolo. Cosa fai?",
+  "answers": [
+    {
+      "text": "Mi affretto: ogni momento è prezioso per aiutare chi è in difficoltà.",
+      "effects": {}
+    },
+    {
+      "text": "Gli faccio qualche domanda prima di decidere se fidarmi: non vorrei cacciarmi in un guaio.",
+      "effects": {}
+    },
+    {
+      "text": "Non posso ignorare una richiesta d'aiuto, ma chiederò la collaborazione dei miei compagni.",
+      "effects": {}
+    },
+    {
+      "text": "Gli dico di spiegarmi meglio cosa è successo e di aspettare: prima voglio capire come posso essere davvero d'aiuto.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 18,
+  "question": "Ti svegli e scopri di avere improvvisamente la capacità di parlare con i Pokémon. Qual è la prima cosa che fai?",
+  "answers": [
+    {
+      "text": "Cerco subito un Pokémon con cui parlare. Voglio sapere cosa pensano davvero di noi.",
+      "effects": {}
+    },
+    {
+      "text": "Provo a parlare con un Pokémon che conosco già.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco di capire come funziona questa capacità e quali siano i suoi limiti.",
+      "effects": {}
+    },
+    {
+      "text": "Non ne parlo con nessuno finché non ho capito cosa comporta.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 19,
+  "question": "Un Pokémon molto più piccolo di te ti sfida a una gara, convinto di poterti battere. Come reagisci?",
+  "answers": [
+    {
+      "text": "Accetto. Non mi tiro indietro davanti a una sfida.",
+      "effects": {}
+    },
+    {
+      "text": "Gli chiedo perché vuole sfidarmi: voglio capire cosa ha in mente.",
+      "effects": {}
+    },
+    {
+      "text": "Accetto volentieri, ma senza prenderlo troppo sul serio.",
+      "effects": {}
+    },
+    {
+      "text": "Rifiuto. Non vedo il motivo di competere solo per dimostrare qualcosa.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 20,
+  "question": "Ti viene offerta la possibilità di conoscere in anticipo un evento importante che accadrà domani, ma dovresti rinunciare a sapere qualcosa di altrettanto importante sul tuo passato. Cosa scegli?",
+  "answers": [
+    {
+      "text": "Voglio sapere cosa accadrà domani. Il futuro potrebbe essere decisivo.",
+      "effects": {}
+    },
+    {
+      "text": "Preferisco conoscere il mio passato: ci sono cose che voglio capire prima di guardare avanti.",
+      "effects": {}
+    },
+    {
+      "text": "Non scelgo nessuna delle due. Preferisco scoprire le cose quando arriverà il momento.",
+      "effects": {}
+    },
+    {
+      "text": "Scelgo in base a quanto potrebbero cambiare le mie decisioni: prima voglio capire cosa potrei ottenere da ciascuna informazione.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 21,
+  "question": "Durante una missione ti accorgi che il tuo compagno è in difficoltà, ma fermarti ad aiutarlo potrebbe compromettere il completamento dell'incarico. Cosa fai?",
+  "answers": [
+    {
+      "text": "Mi fermo ad aiutarlo. Una missione non vale più di una persona.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco un modo per aiutarlo senza rinunciare all'obiettivo.",
+      "effects": {}
+    },
+    {
+      "text": "Gli chiedo se riesce a continuare: se dice di sì, proseguiamo.",
+      "effects": {}
+    },
+    {
+      "text": "La missione deve essere portata a termine. Se possiamo ancora completarla, non possiamo permetterci di fermarci.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 22,
+  "question": "Un Pokémon ti offre una ricompensa molto allettante in cambio di un favore che non ti spiega nei dettagli. Come reagisci?",
+  "answers": [
+    {
+      "text": "Accetto. Se la ricompensa è così buona, ci sarà un motivo.",
+      "effects": {}
+    },
+    {
+      "text": "Voglio sapere esattamente cosa mi sta chiedendo prima di accettare.",
+      "effects": {}
+    },
+    {
+      "text": "Rifiuto: se non vuole dirmi cosa devo fare, non mi interessa quanto sia la ricompensa.",
+      "effects": {}
+    },
+    {
+      "text": "Cerco di capire perché abbia scelto proprio me prima di decidere.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 23,
+  "question": "Durante un'esplorazione trovi un luogo incantevole. Cosa fai?",
+  "answers": [
+    {
+      "text": "Diventerà il mio luogo personale dove rifugiarmi quando sono stressato.",
+      "effects": {}
+    },
+    {
+      "text": "Non vedo l'ora di dirlo a tutti!",
+      "effects": {}
+    },
+    {
+      "text": "È il luogo perfetto per il mio gruppo di amici.",
+      "effects": {}
+    },
+    {
+      "text": "Mi godo il momento e poi continuo l'esplorazione.",
+      "effects": {}
+    }
+  ]
+},
+{
+  "id": 24,
+  "question": "Avete completato la vostra ultima avventura e siete stremati. Come passerai la tua serata?",
+  "answers": [
+    {
+      "text": "È il momento di un po' di me-time. Voglio solo stare tranquillo per conto mio.",
+      "effects": {}
+    },
+    {
+      "text": "Dobbiamo celebrare! Organizziamo una festa!",
+      "effects": {}
+    },
+    {
+      "text": "Il modo migliore per riposarsi è già pensare alla prossima avventura.",
+      "effects": {}
+    },
+    {
+      "text": "Prendiamoci il tempo per capire cosa è andato bene e cosa è andato male in quest'avventura appena conclusa.",
+      "effects": {}
+    }
+  ]
+}
+]
