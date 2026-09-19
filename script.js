@@ -252,7 +252,6 @@ function showResults() {
         resultElement.innerHTML = `
             <div class="axis-header">
                 <span class="axis-name">${axis.name}</span>
-                <span class="axis-label">${value}</span>
             </div>
 
             <div class="axis-bar">
