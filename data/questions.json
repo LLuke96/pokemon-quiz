@@ -7,28 +7,29 @@
                 "text": "Cerco di cavarmela con quello che ho a disposizione.",
                 "effects": {
                     "intraprendenza": 1,
-                    "determinazione": 1
+                    "determinazione": -1
                 }
             },
             {
                 "text": "Torno indietro a recuperarlo, anche se perderemo tempo.",
                 "effects": {
                     "intraprendenza": -1,
-                    "determinazione": 2
+                    "determinazione": 1
                 }
             },
             {
-                "text": "Cerco un'alternativa che ci permetta di proseguire senza quello che manca.",
+                "text": "Valuto con i miei compagni l'idea di rimandare la spedizione.",
                 "effects": {
-                    "intraprendenza": 2,
-                    "determinazione": 1
+                    "empatia": 1,
+                    "determinazione": -1
                 }
             },
             {
                 "text": "Chiedo agli altri se qualcuno ha un'idea o può aiutarmi.",
                 "effects": {
                     "socialita": 1,
-                    "intraprendenza": -1
+                    "intraprendenza": -1,
+                    "determinazione": -2
                 }
             }
         ]
@@ -40,29 +41,30 @@
             {
                 "text": "Cerco di ricostruire il percorso che abbiamo fatto e capire dove abbiamo sbagliato.",
                 "effects": {
-                    "riflessivita": -2
+                    "impulsivita": -2,
+                    "intraprendenza": -1
                 }
             },
             {
                 "text": "Propongo di scegliere una direzione e vedere dove ci porta.",
                 "effects": {
-                    "riflessivita": 1,
-                    "intraprendenza": 1,
-                    "curiosita": 1
+                    "impulsivita": 1,
+                    "curiosita": 1,
+                    "determinazione": -1
+                }
+            },
+            {
+                "text": "Provo prima a orientarmi da solo: magari riesco a capire dove siamo senza dover coinvolgere subito gli altri.",
+                "effects": {
+                    "intraprendenza": 2,
+                    "socialita": -1
                 }
             },
             {
                 "text": "Cerco qualcuno o qualcosa a cui chiedere indicazioni.",
                 "effects": {
                     "socialita": 1,
-                    "intraprendenza": 1
-                }
-            },
-            {
-                "text": "Torniamo sui nostri passi: è meglio riprendere un percorso conosciuto.",
-                "effects": {
-                    "intraprendenza": -1,
-                    "curiosita": -1
+                    "intraprendenza": -1
                 }
             }
         ]
@@ -74,7 +76,7 @@
             {
                 "text": "Lo esamino attentamente prima di toccarlo.",
                 "effects": {
-                    "riflessivita": -2,
+                    "impulsivita": -2,
                     "curiosita": 1
                 }
             },
@@ -82,14 +84,13 @@
                 "text": "Lo prendo: magari potrebbe rivelarsi utile.",
                 "effects": {
                     "intraprendenza": 1,
-                    "curiosita": 1,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Cerco di capire da dove provenga e perché si trovi lì.",
                 "effects": {
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "curiosita": 2
                 }
             },
@@ -110,21 +111,22 @@
                 "text": "Prima cerco di capire se abbiamo davvero le capacità per farcela.",
                 "effects": {
                     "intraprendenza": -1,
-                    "riflessivita": -1
+                    "impulsivita": -1
                 }
             },
             {
                 "text": "Accetto. Se aspettiamo sempre di essere pronti, non faremo mai nulla.",
                 "effects": {
                     "intraprendenza": 2,
-                    "determinazione": 1
+                    "determinazione": 1,
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Provo a trovare un modo per rendere la situazione più affrontabile.",
                 "effects": {
                     "intraprendenza": 1,
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "determinazione": 1
                 }
             },
@@ -145,7 +147,7 @@
                 "text": "La prendiamo. Se siamo arrivati fin qui, tanto vale rischiare.",
                 "effects": {
                     "intraprendenza": 2,
-                    "riflessivita": 1,
+                    "impulsivita": 2,
                     "curiosita": 1
                 }
             },
@@ -153,15 +155,14 @@
                 "text": "Cerco prima di capire quali pericoli potremmo incontrare.",
                 "effects": {
                     "intraprendenza": -1,
-                    "riflessivita": -2
+                    "impulsivita": -2
                 }
             },
             {
                 "text": "Propongo di mandare qualcuno a controllare mentre gli altri aspettano.",
                 "effects": {
                     "intraprendenza": 1,
-                    "socialita": 1,
-                    "riflessivita": -1
+                    "socialita": 1
                 }
             },
             {
@@ -181,13 +182,13 @@
                 "text": "Rivedo i miei piani e cerco di adattarmi alla nuova situazione.",
                 "effects": {
                     "determinazione": -1,
-                    "riflessivita": -1
+                    "impulsivita": -1
                 }
             },
             {
                 "text": "Se non possiamo più seguire il piano originale, rimandiamo la spedizione.",
                 "effects": {
-                    "intraprendenza": -1,
+                    "intraprendenza": -2,
                     "determinazione": 1
                 }
             },
@@ -195,15 +196,14 @@
                 "text": "Partiamo comunque: ci inventeremo qualcosa lungo il percorso.",
                 "effects": {
                     "intraprendenza": 2,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Valuto cosa è cambiato e cerco di capire se il nuovo scenario può essere sfruttato a nostro vantaggio.",
                 "effects": {
-                    "riflessivita": -1,
-                    "curiosita": 1,
-                    "intraprendenza": 1
+                    "impulsivita": -1,
+                    "curiosita": 1
                 }
             }
         ]
@@ -216,13 +216,14 @@
                 "text": "Cerco prima di capire perché è successo, poi vediamo come rimediare.",
                 "effects": {
                     "empatia": -1,
-                    "riflessivita": -1
+                    "impulsivita": -1
                 }
             },
             {
                 "text": "Gli dico chiaramente cosa ha sbagliato: dobbiamo evitare che succeda di nuovo.",
                 "effects": {
-                    "empatia": 1,
+                    "empatia": -1,
+                    "socialita": -1,
                     "determinazione": 1
                 }
             },
@@ -236,7 +237,7 @@
             {
                 "text": "Cerco di rassicurarlo e gli faccio capire che può contare su di me.",
                 "effects": {
-                    "empatia": -2,
+                    "empatia": 2,
                     "socialita": 1
                 }
             }
@@ -249,7 +250,7 @@
             {
                 "text": "Chiedo spiegazioni finché non mi è ben chiaro cosa dovrò fare.",
                 "effects": {
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "intraprendenza": -1
                 }
             },
@@ -264,14 +265,14 @@
                 "text": "Capirò cosa dovrò fare man mano che svolgo questo compito.",
                 "effects": {
                     "intraprendenza": 1,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Se mi è stato affidato questo compito, mi aspetto che mi vengano date le informazioni necessarie per svolgerlo.",
                 "effects": {
                     "determinazione": 1,
-                    "intraprendenza": -1
+                    "socialita": -1
                 }
             }
         ]
@@ -316,23 +317,23 @@
             {
                 "text": "Accetto subito. È proprio questo il bello di provare cose nuove.",
                 "effects": {
-                    "curiosita": 2,
+                    "curiosita": 1,
                     "intraprendenza": 1,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Prima voglio sapere esattamente in cosa consiste.",
                 "effects": {
                     "curiosita": 1,
-                    "riflessivita": -1
+                    "impulsivita": -1
                 }
             },
             {
                 "text": "Se ci tieni, vengo volentieri con te.",
                 "effects": {
                     "socialita": 2,
-                    "curiosita": 1
+                    "curiosita": -1
                 }
             },
             {
@@ -368,14 +369,14 @@
                 "effects": {
                     "socialita": 1,
                     "determinazione": -1,
-                    "riflessivita": -1
+                    "impulsivita": -1
                 }
             },
             {
                 "text": "Tengo a mente la mia intuizione. Se si presenta l'occasione giusta, proverò a sfruttarla.",
                 "effects": {
                     "intraprendenza": 1,
-                    "riflessivita": 1,
+                    "impulsivita": 1,
                     "determinazione": 1
                 }
             }
@@ -389,21 +390,21 @@
                 "text": "Ammetto di aver sbagliato e cambio idea.",
                 "effects": {
                     "determinazione": -1,
-                    "riflessivita": -1
+                    "impulsivita": -1
                 }
             },
             {
                 "text": "Cerco di capire meglio il suo punto di vista prima di decidere.",
                 "effects": {
-                    "riflessivita": -1,
-                    "empatia": -1
+                    "impulsivita": -1,
+                    "empatia": 1
                 }
             },
             {
                 "text": "Provo comunque a difendere la mia posizione: magari c'è qualcosa che non abbiamo considerato.",
                 "effects": {
                     "determinazione": 1,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
@@ -429,8 +430,7 @@
                 "text": "Parlo con il mio amico e cerco di trovare un compromesso.",
                 "effects": {
                     "socialita": 1,
-                    "determinazione": -1,
-                    "empatia": -1
+                    "empatia": 1
                 }
             },
             {
@@ -444,7 +444,8 @@
                 "text": "Mi prendo l'occasione e gli spiego che a volte bisogna saper cambiare programma.",
                 "effects": {
                     "intraprendenza": 1,
-                    "determinazione": -2
+                    "determinazione": -2,
+                    "empatia": -1
                 }
             }
         ]
@@ -456,14 +457,14 @@
             {
                 "text": "Le chiedo se vuole parlarne: magari ha solo bisogno di qualcuno che ascolti.",
                 "effects": {
-                    "empatia": -2,
+                    "empatia": 2,
                     "socialita": 1
                 }
             },
             {
                 "text": "Cerco di tirarle su il morale, anche senza sapere esattamente cosa sia successo.",
                 "effects": {
-                    "empatia": -1,
+                    "empatia": 1,
                     "socialita": 1,
                     "intraprendenza": 1
                 }
@@ -492,13 +493,13 @@
                 "text": "Vado subito a controllare.",
                 "effects": {
                     "intraprendenza": 2,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Cerco di capire cosa sta succedendo: non voglio svegliare gli altri per nulla.",
                 "effects": {
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "intraprendenza": 1
                 }
             },
@@ -527,14 +528,14 @@
                 "effects": {
                     "curiosita": 2,
                     "intraprendenza": 2,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Cerco di capire la natura della porta, mantenendo le distanze.",
                 "effects": {
                     "curiosita": 1,
-                    "riflessivita": -2
+                    "impulsivita": -2
                 }
             },
             {
@@ -560,23 +561,22 @@
             {
                 "text": "Mi affretto: ogni momento è prezioso per aiutare chi è in difficoltà.",
                 "effects": {
-                    "empatia": -1,
+                    "empatia": 2,
                     "intraprendenza": 2,
-                    "riflessivita": 1
+                    "impulsivita": 1
                 }
             },
             {
                 "text": "Gli faccio qualche domanda prima di decidere se fidarmi: non vorrei cacciarmi in un guaio.",
                 "effects": {
-                    "empatia": 1,
-                    "riflessivita": -2,
+                    "empatia": -1,
+                    "impulsivita": -2,
                     "intraprendenza": -1
                 }
             },
             {
                 "text": "Non posso ignorare una richiesta d'aiuto, ma chiederò la collaborazione dei miei compagni.",
                 "effects": {
-                    "empatia": -2,
                     "socialita": 1,
                     "intraprendenza": 1
                 }
@@ -585,7 +585,7 @@
                 "text": "Gli dico di spiegarmi meglio cosa è successo e di aspettare: prima voglio capire come posso essere davvero d'aiuto.",
                 "effects": {
                     "empatia": -1,
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "intraprendenza": -1
                 }
             }
@@ -596,33 +596,34 @@
         "question": "Ti svegli e scopri di avere improvvisamente la capacità di parlare con i Pokémon. Qual è la prima cosa che fai?",
         "answers": [
             {
-                "text": "Cerco subito un Pokémon con cui parlare. Voglio sapere cosa pensano davvero di noi.",
+                "text": "Non ho tempo per psicanalizzare Psyduck, devo addestrare il mio esercito di Rattata per conquistare il mondo!",
+                "effects": {
+                    "impulsivita": 2,
+                    "intraprendenza": 1,
+                    "curiosita": -1
+                }
+            },
+            {
+                "text": "Cerco il mio Pokémon preferito e provo a capire cosa pensa davvero di me e come si sente.",
+                "effects": {
+                    "empatia": 2,
+                    "socialita": 1,
+                    "intraprendenza": -1,
+                    "curiosita": -1
+                }
+            },
+            {
+                "text": "Voglio scoprire tutto ciò che questa capacità può insegnarci: magari i Pokémon custodiscono segreti che non siamo mai riusciti a cogliere.",
                 "effects": {
                     "curiosita": 2,
-                    "intraprendenza": 1,
-                    "socialita": 1
+                    "intraprendenza": 1
                 }
             },
             {
-                "text": "Provo a parlare con un Pokémon che conosco già.",
-                "effects": {
-                    "socialita": 1,
-                    "curiosita": 1
-                }
-            },
-            {
-                "text": "Cerco di capire come funziona questa capacità e quali siano i suoi limiti.",
+                "text": "Aspetta... chi mi ha dato questi poteri? E soprattutto: posso parlare con un Parasect?",
                 "effects": {
                     "curiosita": 1,
-                    "riflessivita": -2
-                }
-            },
-            {
-                "text": "Non ne parlo con nessuno finché non ho capito cosa comporta.",
-                "effects": {
-                    "curiosita": 1,
-                    "socialita": -1,
-                    "riflessivita": -1
+                    "impulsivita": -2
                 }
             }
         ]
@@ -641,7 +642,7 @@
             {
                 "text": "Gli chiedo perché vuole sfidarmi: voglio capire cosa ha in mente.",
                 "effects": {
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "curiosita": 1
                 }
             },
@@ -663,35 +664,35 @@
     },
     {
         "id": 20,
-        "question": "Ti viene offerta la possibilità di conoscere in anticipo un evento importante che accadrà domani, ma dovresti rinunciare a sapere qualcosa di altrettanto importante sul tuo passato. Cosa scegli?",
+        "question": "Ti viene offerta la possibilità di conoscere in anticipo un evento importante che accadrà domani, ma dovresti rinunciare a ricordare qualcosa di altrettanto importante del tuo passato. Cosa scegli?",
         "answers": [
             {
-                "text": "Voglio sapere cosa accadrà domani. Il futuro potrebbe essere decisivo.",
-                "effects": {
-                    "curiosita": 1,
-                    "intraprendenza": 1
-                }
+            "text": "Voglio conoscere il futuro. Potrebbe essere qualcosa di importante e voglio sapere cosa mi aspetta.",
+            "effects": {
+                "curiosita": 1,
+                "intraprendenza": 1
+            }
             },
             {
-                "text": "Preferisco conoscere il mio passato: ci sono cose che voglio capire prima di guardare avanti.",
-                "effects": {
-                    "curiosita": 1,
-                    "riflessivita": -1
-                }
+            "text": "Preferisco conservare il ricordo del passato. Le esperienze che ho vissuto mi hanno formato e voglio ricordarle.",
+            "effects": {
+                "curiosita": 1,
+                "impulsivita": -1
+            }
             },
             {
-                "text": "Non scelgo nessuna delle due. Preferisco scoprire le cose quando arriverà il momento.",
-                "effects": {
-                    "curiosita": -1,
-                    "intraprendenza": -1
-                }
+            "text": "Preferisco conservare il ricordo del passato. Potrei perdere un ricordo legato a una persona importante per me.",
+            "effects": {
+                "empatia": 1,
+                "socialita": 1
+            }
             },
             {
-                "text": "Scelgo in base a quanto potrebbero cambiare le mie decisioni: prima voglio capire cosa potrei ottenere da ciascuna informazione.",
-                "effects": {
-                    "riflessivita": -2,
-                    "curiosita": 1
-                }
+            "text": "Senza sapere quale ricordo rischierei di perdere, non posso scegliere davvero. Tiro una moneta e lascio decidere al caso.",
+            "effects": {
+                "impulsivita": 1,
+                "curiosita": -1
+            }
             }
         ]
     },
@@ -702,14 +703,14 @@
             {
                 "text": "Mi fermo ad aiutarlo. Una missione non vale più di una persona.",
                 "effects": {
-                    "empatia": -2,
-                    "determinazione": 1
+                    "empatia": 2,
+                    "determinazione": -2
                 }
             },
             {
-                "text": "Cerco un modo per aiutarlo alla buona, senza rinunciare all'obiettivo.",
+                "text": "Cerco un modo per aiutarlo, ma senza rinunciare all'obiettivo.",
                 "effects": {
-                    "empatia": -1,
+                    "empatia": 1,
                     "intraprendenza": 1,
                     "determinazione": 1
                 }
@@ -725,7 +726,7 @@
             {
                 "text": "La missione deve essere portata a termine. Se possiamo ancora completarla, non possiamo permetterci di fermarci.",
                 "effects": {
-                    "empatia": 2,
+                    "empatia": -2,
                     "determinazione": 2
                 }
             }
@@ -736,17 +737,16 @@
         "question": "Un Pokémon ti offre una ricompensa molto allettante in cambio di un favore che non ti spiega nei dettagli. Come reagisci?",
         "answers": [
             {
-                "text": "Accetto. Se la ricompensa è così buona, ci sarà un motivo.",
+                "text": "Accetto. Voglio quella ricompensa.",
                 "effects": {
                     "intraprendenza": 1,
-                    "riflessivita": 1,
-                    "curiosita": 1
+                    "impulsivita": 2
                 }
             },
             {
                 "text": "Voglio sapere esattamente cosa mi sta chiedendo prima di accettare.",
                 "effects": {
-                    "riflessivita": -2,
+                    "impulsivita": -2,
                     "intraprendenza": -1
                 }
             },
@@ -754,14 +754,13 @@
                 "text": "Rifiuto: se non vuole dirmi cosa devo fare, non mi interessa quanto sia la ricompensa.",
                 "effects": {
                     "intraprendenza": -1,
-                    "curiosita": -1,
-                    "determinazione": 1
+                    "curiosita": -1
                 }
             },
             {
                 "text": "Cerco di capire perché abbia scelto proprio me prima di decidere.",
                 "effects": {
-                    "riflessivita": -1,
+                    "impulsivita": -1,
                     "curiosita": 1
                 }
             }
@@ -805,13 +804,15 @@
             {
                 "text": "È il momento di un po' di me-time. Voglio solo stare tranquillo per conto mio.",
                 "effects": {
-                    "socialita": -2
+                    "socialita": -2,
+                    "curiosita": -1
                 }
             },
             {
                 "text": "Dobbiamo celebrare! Organizziamo una festa!",
                 "effects": {
-                    "socialita": 2
+                    "socialita": 2,
+                    "impulsivita": 1
                 }
             },
             {
@@ -825,8 +826,8 @@
             {
                 "text": "Prendiamoci il tempo per capire cosa è andato bene e cosa è andato male in quest'avventura appena conclusa.",
                 "effects": {
-                    "riflessivita": -2,
-                    "determinazione": 1
+                    "impulsivita": -2,
+                    "determinazione": -1
                 }
             }
         ]
